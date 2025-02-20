@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="cMemeSnip.css">
+    <link rel="icon" href="hIcon/iceCream.jpg" type="image/jpg">
+        <title>MemeSnip</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="navdiv">
+                <div id="div0">
+                    <img src="hIcon/iceCream.jpg" alt="Surtr" id="imgicon1">
+                    <div class="logo"> <a href="#">MemeSnip</a> </div>
+                </div>
+                <ul>
+                    <h1>Welcome <span id ="loggedUserFName"></span>!<button id="logout"><a>Log Out</a></button></h1> 
+                </ul>
+            </div>
+        </nav>
+
+        <!------------------------------------------------------->
+        
+            <!-- Selection Tab -->
+        <div class="tab-container">
+            <input type="radio" name="tab" id="MemeImages" class="tab tab--Images"/>
+            <label class="tab_label" for="MemeImages" data-tab-target="#ImageMemes">Images</label>
+            
+            <input type="radio" name="tab" id="MemeVideos" class="tab tab--Videos"/>
+            <label class="tab_label" for="MemeVideos" data-tab-target="#VideoMemes">Videos</label>
+            
+            <input type="radio" name="tab" id="MemeGIFs" class="tab tab--GIFs"/>
+            <label class="tab_label" for="MemeGIFs" data-tab-target="#GIFMemes">GIFs</label>
+
+            <input type="radio" name="tab" id="MemeUpload" class="tab tab--Uploads"/>
+            <label class="tab_label" for="MemeUpload" data-tab-target="#UploadMemes">Upload</label>
+
+            <div class="indicator"></div>
+        </div>
+
+            <!-- Main Content: Meme Images -->
+        <div id="ImageMemes" data-tab-content class="active">
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme1.jpg" alt="jpgmeme1" class="imgMeme" onclick="change(this)">
+                <p id="p1">"You Wont Remember Anything."</p>
+                    <a href="Jpegmemes/meme1.jpg" download="jpgmeme1.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme2.jpg" alt="jpgmeme2" class="imgMeme" onclick="change(this)">
+                <p id="p1">"What do you mean by that?"</p>
+                    <a href="Jpegmemes/meme2.jpg" download="jpgmeme2.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme3.jpg" alt="jpgmeme3" class="imgMeme" onclick="change(this)">
+                <p id="p1">"For Real?"</p>
+                    <a href="Jpegmemes/meme3.jpg" download="jpgmeme3.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme4.jpg" alt="jpgmeme4" class="imgMeme" onclick="change(this)">
+                <p id="p1">"OUR'S"</p>
+                <a href="Jpegmemes/meme4.jpg" download="jpgmeme4.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme5.jpg" alt="jpgmeme5" class="imgMeme" onclick="change(this)">
+                <p id="p1">"AINOWAY!"</p>
+                    <a href="Jpegmemes/meme5.jpg" download="jpgmeme5.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme6.jpg" alt="jpgmeme6" class="imgMeme" onclick="change(this)">
+                <p id="p1">"Elmo Villain"</p>
+                    <a href="Jpegmemes/meme6.jpg" download="jpgmeme6.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme7.jpg" alt="jpgmeme7" class="imgMeme" onclick="change(this)">
+                <p id="p1">"Leonardo Cheers"</p>
+                    <a href="Jpegmemes/meme7.jpg" download="jpgmeme7.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme8.jpg" alt="jpgmeme8" class="imgMeme" onclick="change(this)">
+                <p id="p1">"Think About It"</p>
+                    <a href="Jpegmemes/meme8.jpg" download="jpgmeme8.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme9.jpg" alt="jpgmeme9" class="imgMeme" onclick="change(this)">
+                <p id="p1">"Disaster Girl"</p>
+                    <a href="Jpegmemes/meme9.jpg" download="jpgmeme9.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme10.jpg" alt="jpgmeme10" class="imgMeme" onclick="change(this)">
+                <p id="p1">"Distracted BF"</p>
+                    <a href="Jpegmemes/meme10.jpg" download="jpgmeme10.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme11.jpg" alt="jpgmeme11" class="imgMeme" onclick="change(this)">
+                <p id="p1">"Stonks"</p>
+                    <a href="Jpegmemes/meme11.jpg" download="jpgmeme11.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme12.jpg" alt="jpgmeme12" class="imgMeme" onclick="change(this)">
+                <p id="p1">"Kids Are Not Allowed"</p>
+                    <a href="Jpegmemes/meme12.jpg" download="jpgmeme12.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme13.jpg" alt="jpgmeme13" class="imgMeme" onclick="change(this)">
+                <p id="p1">"Doge"</p>
+                    <a href="Jpegmemes/meme13.jpg" download="jpgmeme13.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme14.jpg" alt="jpgmeme14" class="imgMeme" onclick="change(this)">
+                <p id="p1">"What Was That?"</p>
+                    <a href="Jpegmemes/meme14.jpg" download="jpgmeme14.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme15.jpg" alt="jpgmeme15" class="imgMeme" onclick="change(this)">
+                <p id="p1">"Drake Nah"</p>
+                    <a href="Jpegmemes/meme15.jpg" download="jpgmeme15.jpg">Download Now</a>
+            </div>
+
+            <div class="jpgMeme">
+                <img src="Jpegmemes/meme16.jpg" alt="jpgmeme16" class="imgMeme" onclick="change(this)">
+                <p id="p1">"Drake Yea"</p>
+                    <a href="Jpegmemes/meme16.jpg" download="jpgmeme16.jpg">Download Now</a>
+            </div>
+
+        </div>
+
+            <!-- Main Content: Meme Videos -->
+        <div id="VideoMemes" data-tab-content>
+            <div class="mp4Memes">
+                <video src="Videomemes/vid1.mp4" controls style="width: 200px;"></video>
+                <p id="p6">"Happy New Year!"</p>
+                    <a href="Videomemes/vid1.mp4" download="vid1.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid2.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"Crying Ruru"</p>
+                    <a href="Videomemes/vid2.mp4" download="vid2.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid3.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"It's a Prank"</p>
+                    <a href="Videomemes/vid3.mp4" download="vid3.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid4.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"Nigerian Rizz"</p>
+                    <a href="Videomemes/vid4.mp4" download="vid4.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid5.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"Look Here it Comes"</p>
+                    <a href="Videomemes/vid5.mp4" download="vid5.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid6.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"Say Less"</p>
+                    <a href="Videomemes/vid6.mp4" download="vid6.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid7.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"Spiderman Sad Boy"</p>
+                    <a href="Videomemes/vid7.mp4" download="vid7.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid8.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"Ayo Come Look At This"</p>
+                    <a href="Videomemes/vid8.mp4" download="vid8.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid9.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"Sike!"</p>
+                    <a href="Videomemes/vid9.mp4" download="vid9.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid10.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"What?"</p>
+                    <a href="Videomemes/vid10.mp4" download="vid10.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid11.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"Laughing Manny"</p>
+                    <a href="Videomemes/vid11.mp4" download="vid11.mp4">Download Now</a>
+            </div>
+
+            <div class="mp4Memes">
+                <video src="Videomemes/vid12.mp4" controls style="width: 200px;"></video>
+                <p id="p3">"Peace Out"</p>
+                    <a href="Videomemes/vid12.mp4" download="vid12.mp4">Download Now</a>
+            </div>
+        </div>
+
+            <!-- Main Content: Meme GIFs -->
+        <div id="GIFMemes" data-tab-content>
+            <div class="gifMemes">
+                <img src="Gifmemes/gif1.gif" alt="gif1" class="gifMeme">
+                <p id="p11">"Absolute Cinema"</p>
+                    <a href="Gifmemes/gif1.gif" download="gif1.gif">Download Now</a>
+            </div>
+
+            <div class="gifMemes">
+                <img src="Gifmemes/gif2.gif" alt="gif2" class="gifMeme">
+                <p id="p12">"Laughing Cat At You"</p>
+                    <a href="Gifmemes/gif2.gif" download="jpgmeme1.jpg">Download Now</a>
+            </div>
+
+            <div class="gifMemes">
+                <img src="Gifmemes/gif3.gif" alt="gif3" class="gifMeme">
+                <p id="p13">"I Got My Eye on You"</p>
+                    <a href="Gifmemes/gif3.gif" download="gif3">Download Now</a>
+            </div>
+
+            <div class="gifMemes">
+                <img src="Gifmemes/gif4.gif" alt="gif4" class="gifMeme">
+                <p id="p14">"Hide on Bush"</p>
+                    <a href="Gifmemes/gif4.gif" download="gif4">Download Now</a>
+            </div>
+
+            <div class="gifMemes">
+                <img src="Gifmemes/gif5.gif" alt="gif5" class="gifMeme">
+                <p id="p1">"Batman Think Thinking Think"</p>
+                    <a href="Gifmemes/gif5.gif" download="gif5">Download Now</a>
+            </div>
+
+            <div class="gifMemes">
+                <img src="Gifmemes/gif6.gif" alt="gif6" class="gifMeme">
+                <p id="p1">"Shocked Speed"</p>
+                    <a href="Gifmemes/gif6.gif" download="gif6">Download Now</a>
+            </div>
+
+            <div class="gifMemes">
+                <img src="Gifmemes/gif7.gif" alt="gif7" class="gifMeme">
+                <p id="p1">"EWWWW"</p>
+                    <a href="Gifmemes/gif7.gif" download="gif7">Download Now</a>
+            </div>
+
+            <div class="gifMemes">
+                <img src="Gifmemes/gif8.gif" alt="gif8" class="gifMeme">
+                <p id="p1">"Bateman Sigma"</p>
+                    <a href="Gifmemes/gif8.gif" download="gif8">Download Now</a>
+            </div>
+
+            <div class="gifMemes">
+                <img src="Gifmemes/gif9.gif" alt="gif9" class="gifMeme">
+                <p id="p1">"Sad Emoji"</p>
+                    <a href="Gifmemes/gif9.gif" download="gif9">Download Now</a>
+            </div>
+
+            <div class="gifMemes">
+                <img src="Gifmemes/gif10.gif" alt="gif10" class="gifMeme">
+                <p id="p1">"Bonk Doge"</p>
+                    <a href="Gifmemes/gif10.gif" download="gif10">Download Now</a>
+            </div>
+        </div>
+
+            <!-- Main Content: Meme Upload -->
+        <div id="UploadMemes" data-tab-content>
+            
+            <div id="upload-section">
+                <h2>Upload Your Meme</h2>
+                <input type="file" id="template-upload" accept="image/*, video/*">
+                <button onclick="uploadTemplate()">Upload</button>
+                <p id="upload-message"></p>
+            </div>
+        
+            <div id="templates-container"></div>
+        </div>
+    </body>
+    <script type="module" src="./homepage.js"></script>
+    <script src="jMemeSnip.js" defer></script>
+</html>
